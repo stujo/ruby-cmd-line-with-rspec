@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+#
+
+require "rubygems"
+require "bundler/setup"
+
+$LOAD_PATH << File.join(File.dirname(__FILE__), "../lib")
+
+require 'application'
+
+Application.boot
+
